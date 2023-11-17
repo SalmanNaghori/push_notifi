@@ -14,7 +14,7 @@ import 'globle_context.dart';
 //       "==============+++++++++++++==${message.notification!.title.toString()} \n ${message.data.toString()}");
 // }
 
-void main() async {
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   // FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
